@@ -1,0 +1,119 @@
+{
+    "home": [
+        {
+            "name": "Europa",
+            "description": "O continent mais antigo",
+            "image": "https://source.unsplash.com/nY-41_tBkb0"
+        },
+        {
+            "name": "América do Norte",
+            "description":"",
+            "image":"https://source.unsplash.com/1UN0YVHcIlU"
+        },
+        {
+            "name": "América do Sul",
+            "description":"",
+            "image":"https://source.unsplash.com/me2X2pfRhXU"
+        },
+        {
+            "name": "América Central",
+            "description":"",
+            "image":"https://source.unsplash.com/UfK0P6WygEE"
+        },
+        {
+            "name": "África",
+            "description":"",
+            "image":"https://source.unsplash.com/GaLzDCnA5EI"
+        },
+        {
+            "name": "Oceania",
+            "description":"",
+            "image":"https://source.unsplash.com/6LEEmK68fa4"
+        },
+        {
+            "name": "Ásia",
+            "description":"",
+            "image":"https://source.unsplash.com/9bdt03k4ujw"
+        }
+    ],
+    "continents": [
+        {
+            "slug":"europa",
+            "name":"Europa",
+            "description":"A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+            "banner": "https://source.unsplash.com/IZ86s5eV4hA",
+            "numberOfCountries": 50,
+            "numberOfLanguages": 60,
+            "mostVisitedQuantity": 32,
+            "mostPopularCities":[
+                {
+                    "city": "Londres",
+                    "capital": "Reino Unido",
+                    "initials": "GB",
+                    "image": "https://source.unsplash.com/Q6UehpkBSnQ"
+                },
+                {
+                    "city": "Paris",
+                    "capital": "França",
+                    "initials": "FR",
+                    "image": "https://source.unsplash.com/t9Td0zfDTwI"
+                },
+                {
+                    "city": "Roma",
+                    "capital": "Itália",
+                    "initials": "IT",
+                    "image": "https://source.unsplash.com/Q4g0Q-eVVEg"
+                },
+                {
+                    "city": "Praga",
+                    "capital": "República Tcheca",
+                    "initials": "CZ",
+                    "image": "https://source.unsplash.com/S2Wek5-5oEc"
+                },
+                {
+                    "city": "Amsterdã",
+                    "capital": "Holanda",
+                    "initials": "NL",
+                    "image": "https://source.unsplash.com/Tew7Cgj9PnA"
+                }
+            ]
+        },
+        {
+            "slug":"africa",
+            "name":"África",
+            "description":"",
+            "banner": "https://source.unsplash.com/T-LfvX-7IVg"
+        },
+        {
+            "slug":"americaDoNorte",
+            "name":"América do Norte",
+            "description":"",
+            "banner": "https://source.unsplash.com/rssyLMR_nWQ",
+            "mostVisitedQuantity": 10
+        },
+        {
+            "slug":"americaDoSul",
+            "name":"América do Sul",
+            "description":"",
+            "banner": "https://source.unsplash.com/yam1KMv0SgQ"
+        },
+        {
+            "slug":"oceania",
+            "name":"Oceania",
+            "description":"",
+            "banner": "https://source.unsplash.com/x_H-9suOpck"
+        },
+        {
+            "slug":"asia",
+            "name":"Ásia",
+            "description":"",
+            "banner": "https://source.unsplash.com/B64B6-kAWlw"
+        },
+        {
+            "slug":"americaCentral",
+            "name":"América Central",
+            "description":"",
+            "banner": "https://source.unsplash.com/zVoscQjM8Bo"
+        }
+    ]
+}
