@@ -7,18 +7,18 @@
         },
         {
             "name": "América do Norte",
-            "description":"",
+            "description":"É um subcontinente que compreende a porção setentrional do continente americano",
             "image":"https://source.unsplash.com/1UN0YVHcIlU"
         },
         {
             "name": "América do Sul",
-            "description":"",
+            "description":"Quatro quintos do continente ficam abaixo da Linha do Equador",
             "image":"https://source.unsplash.com/me2X2pfRhXU"
         },
         {
             "name": "América Central",
-            "description":"",
-            "image":"https://source.unsplash.com/UfK0P6WygEE"
+            "description":"Esta região localiza-se numa placa tectónica própria: a Placa Caribeana",
+            "image":"https://source.unsplash.com/a717fD-aego"
         },
         {
             "name": "África",
@@ -87,15 +87,84 @@
         {
             "slug":"americaDoNorte",
             "name":"América do Norte",
-            "description":"",
+            "description":"A América do Norte está localizada no extremo norte das Américas e é composta por apenas três países: Estados Unidos, Canadá e México, além de territórios de domínios europeus, como a Groelândia (pertencente ao Reino da Dinamarca, com representação no parlamento) e Bermudas (dependência britânica)",
             "banner": "https://source.unsplash.com/rssyLMR_nWQ",
-            "mostVisitedQuantity": 10
+            "numberOfCountries": 23,
+            "numberOfLanguages": 430,
+            "mostVisitedQuantity": 10,
+            "mostPopularCities":[
+                {
+                    "city": "Nova York",
+                    "capital": "Albany",
+                    "initials": "NY",
+                    "image": "https://source.unsplash.com/TaCk3NspYe0"
+                },
+                {
+                    "city": "Miami",
+                    "capital": "Tallahassee",
+                    "initials": "MIA",
+                    "image": "https://source.unsplash.com/pAWY7xrsLwc"
+                },
+                {
+                    "city": "Los Angeles",
+                    "capital": "Sacramento",
+                    "initials": "LA",
+                    "image": "https://source.unsplash.com/wdCkqK1oRIc"
+                },
+                {
+                    "city": "Orlando",
+                    "capital": "Tallahassee",
+                    "initials": "MCO",
+                    "image": "https://source.unsplash.com/HCKVHAEbkus"
+                },
+                {
+                    "city": "São Francisco",
+                    "capital": "Sacramento",
+                    "initials": "SFO",
+                    "image": "https://source.unsplash.com/4_4b1sah3_0"
+                }
+            ]
         },
         {
             "slug":"americaDoSul",
             "name":"América do Sul",
-            "description":"",
-            "banner": "https://source.unsplash.com/yam1KMv0SgQ"
+            "description":"A América do Sul ocupa uma área de 17 819 100 quilômetros quadrados, localiza-se a 60º 00' 00 de longitude oeste do Meridiano de Greenwich e a 20º 00' 00 de latitude sul da Linha do Equador e com fusos horários -6, -5, -4, -3 e -2 horas em relação a hora mundial GMT.  No planeta Terra, o continente faz parte do continente pan-americano. É banhado pelo mar do Caribe, oceano Atlântico e oceano Pacífico.",
+            "banner": "https://source.unsplash.com/yam1KMv0SgQ",
+            "numberOfCountries": 13,
+            "numberOfLanguages": 5,
+            "mostVisitedQuantity": 21,
+            "mostPopularCities":[
+                {
+                    "city": "Rio de Janeiro",
+                    "capital": "Rio de Janeiro",
+                    "initials": "RJ",
+                    "image": "https://source.unsplash.com/7F65HDP0-E0"
+                },
+                {
+                    "city": "Buenos Aires",
+                    "capital": "Argentina",
+                    "initials": "AR",
+                    "image": "https://source.unsplash.com/kVxmhEHD6gg"
+                },
+                {
+                    "city": "Machu Picchu",
+                    "capital": "Peru",
+                    "initials": "PE",
+                    "image": "https://source.unsplash.com/rFESpq5MMTg"
+                },
+                {
+                    "city": "São Paulo",
+                    "capital": "São Paulo",
+                    "initials": "SP",
+                    "image": "https://source.unsplash.com/mabogysS4Tg"
+                },
+                {
+                    "city": "Santiago",
+                    "capital": "Chile",
+                    "initials": "CHL",
+                    "image": "https://source.unsplash.com/QH3rBhcJS54"
+                }
+            ]
         },
         {
             "slug":"oceania",
@@ -112,8 +181,31 @@
         {
             "slug":"americaCentral",
             "name":"América Central",
-            "description":"",
-            "banner": "https://source.unsplash.com/zVoscQjM8Bo"
+            "description":"Na América Central, especialmente na Guatemala, Belize, além do sul do México e norte da península de Iucatã (já na América do Norte), floresceu uma das mais notáveis civilizações indígenas: a civilização maia, cujo adiantamento no campo das ciências e das artes, bem como no âmbito da organização política, social e religiosa, é universalmente reconhecido.",
+            "banner": "https://source.unsplash.com/zVoscQjM8Bo",
+            "numberOfCountries": 20,
+            "numberOfLanguages": 4,
+            "mostVisitedQuantity": 8,
+            "mostPopularCities":[
+                {
+                    "city": "Costa Rica",
+                    "capital": "San José",
+                    "initials": "CR",
+                    "image": "https://source.unsplash.com/2hkDhGEZVBg"
+                },
+                {
+                    "city": "Bahamas",
+                    "capital": "Nassau",
+                    "initials": "BS",
+                    "image": "https://source.unsplash.com/rMaWin9-9Gk"
+                },
+                {
+                    "city": "Guatemala",
+                    "capital": "Cidade da Guatemala",
+                    "initials": "GTM",
+                    "image": "https://source.unsplash.com/Vq-NkZ42I24"
+                }
+            ]
         }
     ]
 }
