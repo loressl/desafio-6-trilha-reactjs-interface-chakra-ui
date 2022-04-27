@@ -22,17 +22,17 @@
         },
         {
             "name": "África",
-            "description":"",
+            "description":"É o terceiro maior continente do mundo e um dos mais populosos",
             "image":"https://source.unsplash.com/GaLzDCnA5EI"
         },
         {
             "name": "Oceania",
-            "description":"",
+            "description":"É uma região geográfica composta por vários grupos de ilhas do oceano Pacífico",
             "image":"https://source.unsplash.com/6LEEmK68fa4"
         },
         {
             "name": "Ásia",
-            "description":"",
+            "description":"É o maior dos continentes, tanto em área como em população",
             "image":"https://source.unsplash.com/9bdt03k4ujw"
         }
     ],
@@ -81,8 +81,37 @@
         {
             "slug":"africa",
             "name":"África",
-            "description":"",
-            "banner": "https://source.unsplash.com/T-LfvX-7IVg"
+            "description":"É o segundo continente mais populoso da Terra (atrás da Ásia) com cerca de um bilhão de pessoas (estimativa para 2005), representando cerca de um sétimo da população mundial, e 54 países independentes. Tem se transformado na ultima década em uma continente cada vez mais católico.",
+            "banner": "https://source.unsplash.com/T-LfvX-7IVg",
+            "numberOfCountries": 54,
+            "numberOfLanguages": 2000,
+            "mostVisitedQuantity": 7,
+            "mostPopularCities":[
+                {
+                    "city": "África do Sul",
+                    "capital": "Cidade do Cabo, Pretória, Bloemfontein",
+                    "initials": "ZA",
+                    "image": "https://source.unsplash.com/1GgWbP74phY"
+                },
+                {
+                    "city": "Tanzânia",
+                    "capital": "Dodoma",
+                    "initials": "TAN",
+                    "image": "https://source.unsplash.com/tEYD58OrLiY"
+                },
+                {
+                    "city": "Etiópia",
+                    "capital": "Addis Ababa",
+                    "initials": "ETH",
+                    "image": "https://source.unsplash.com/v1pcGRXSmW8"
+                },
+                {
+                    "city": "Seychelles",
+                    "capital": "Victória",
+                    "initials": "SEY",
+                    "image": "https://source.unsplash.com/W1v3GDg9OUo"
+                }
+            ]
         },
         {
             "slug":"americaDoNorte",
@@ -169,14 +198,72 @@
         {
             "slug":"oceania",
             "name":"Oceania",
-            "description":"",
-            "banner": "https://source.unsplash.com/x_H-9suOpck"
+            "description":"O termo Oceania foi criado em 1831 pelo explorador francês Dumont d'Urville. O termo é usado hoje em vários idiomas para designar uma região geográfica e política que compreende o continente da Austrália e ilhas do Oceano Pacífico adjacentes.",
+            "banner": "https://source.unsplash.com/x_H-9suOpck",
+            "numberOfCountries": 16,
+            "numberOfLanguages": 450,
+            "mostVisitedQuantity": 3,
+            "mostPopularCities":[
+                {
+                    "city": "Austrália",
+                    "capital": "Sidney",
+                    "initials": "AU",
+                    "image": "https://source.unsplash.com/jK9dT34TfuI"
+                },
+                {
+                    "city": "Nova Zelândia",
+                    "capital": "Wellington",
+                    "initials": "NZ",
+                    "image": "https://source.unsplash.com/LZVmvKlchM0"
+                },
+                {
+                    "city": "Fiji",
+                    "capital": "Suva",
+                    "initials": "FJ",
+                    "image": "https://source.unsplash.com/ax_K7Ts1k9E"
+                }
+            ]
         },
         {
             "slug":"asia",
             "name":"Ásia",
-            "description":"",
-            "banner": "https://source.unsplash.com/B64B6-kAWlw"
+            "description":"Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
+            "banner": "https://source.unsplash.com/B64B6-kAWlw",
+            "numberOfCountries": 50,
+            "numberOfLanguages": 2300,
+            "mostVisitedQuantity": 15,
+            "mostPopularCities":[
+                {
+                    "city": "Hong Kong",
+                    "capital": "City of Victoria",
+                    "initials": "CN",
+                    "image": "https://source.unsplash.com/DdQkVaQbSsg"
+                },
+                {
+                    "city": "Tailândia",
+                    "capital": "Bangkok",
+                    "initials": "TH",
+                    "image": "https://source.unsplash.com/g52OIhol73M"
+                },
+                {
+                    "city": "Singapore",
+                    "capital": "Singapore",
+                    "initials": "",
+                    "image": "https://source.unsplash.com/Gf_KqXHU-PY"
+                },
+                {
+                    "city": "Macau",
+                    "capital": "China",
+                    "initials": "CH",
+                    "image": "https://source.unsplash.com/HR2awndNZi8"
+                },
+                {
+                    "city": "Dubai",
+                    "capital": "Emirados Árabes Unidos",
+                    "initials": "AE",
+                    "image": "https://source.unsplash.com/gfMEelIy7r8"
+                }
+            ]
         },
         {
             "slug":"americaCentral",
