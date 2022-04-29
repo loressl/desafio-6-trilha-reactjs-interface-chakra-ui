@@ -5,7 +5,10 @@ import { Logo } from "./Logo";
 export function Header () {
     const isWideVersion = useBreakpointValue({
         base: false,
-        lg: true
+        sm: false,
+        md: false,
+        lg: true,
+        xl: true,
     })
 
     const { asPath } = useRouter()

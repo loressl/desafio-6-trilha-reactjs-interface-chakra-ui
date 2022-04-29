@@ -3,7 +3,10 @@ import { Image, useBreakpointValue } from "@chakra-ui/react";
 export function Logo() {
     const isWideVersion = useBreakpointValue({
         base: false,
-        lg: true
+        sm: false,
+        md: false,
+        lg: true,
+        xl: true,
     })
 
     return(
