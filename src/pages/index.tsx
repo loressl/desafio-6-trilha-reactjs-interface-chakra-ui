@@ -7,10 +7,10 @@ import { Slider } from "../components/Slider";
 import { SliderItem } from "../components/Slider/SliderItem";
 import { TravelTypes } from "../components/TravelTypes";
 import { api } from "../services/api";
-import { Country } from "../types";
+import { CountryHome } from "../types";
 
 interface HomeProps {
-  countries: Country[]
+  countries: CountryHome[]
   error: boolean
 }
 
@@ -39,7 +39,7 @@ export default function Home({countries, error}: HomeProps) {
       <Head>
         <title>Home | World Trip</title>
       </Head>
-      <BannerHome/>
+      <BannerHome isWideVersion={isWideVersion}/>
       <Flex
         width="100%"
         h="100%"

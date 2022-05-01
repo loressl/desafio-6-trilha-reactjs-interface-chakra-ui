@@ -8,14 +8,11 @@ import {
 } from "@chakra-ui/react";
 import { constants } from '../../utils'
 
-export function BannerHome () {
-    const isWideVersion = useBreakpointValue({
-        base: false,
-        sm: false,
-        md: false,
-        lg: true,
-        xl: true,
-    })
+interface BannerHomeProps {
+    isWideVersion: boolean
+}
+
+export function BannerHome ({isWideVersion}: BannerHomeProps) {
 
     return(
         <Flex
