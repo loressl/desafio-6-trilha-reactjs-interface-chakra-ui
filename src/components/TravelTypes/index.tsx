@@ -2,11 +2,14 @@ import {
     Wrap, 
     WrapItem,
     Grid,
-    GridItem, 
-    useBreakpointValue,
+    GridItem,
     Flex 
 } from "@chakra-ui/react";
 import { Type } from "./Types";
+
+interface TravelTypesProps {
+    isWideVersion: boolean
+}
 
 const data = [
     { image: '/images/travelTypes/cocktail.svg', title: 'vida noturna' },
@@ -16,14 +19,7 @@ const data = [
     { image: '/images/travelTypes/earth.svg', title: 'e mais...' },
 ]
 
-export function TravelTypes () {
-    const isWideVersion = useBreakpointValue({
-        base: false,
-        sm: false,
-        md: false,
-        lg: true,
-        xl: true,
-    })
+export function TravelTypes ({ isWideVersion }: TravelTypesProps) {
 
     if (isWideVersion) {
         return(

@@ -3,37 +3,44 @@
         {
             "name": "Europa",
             "description": "O continent mais antigo",
-            "image": "https://source.unsplash.com/nY-41_tBkb0"
+            "image": "https://source.unsplash.com/nY-41_tBkb0",
+            "path":"europa"
         },
         {
             "name": "América do Norte",
             "description":"É um subcontinente que compreende a porção setentrional do continente americano",
-            "image":"https://source.unsplash.com/1UN0YVHcIlU"
+            "image":"https://source.unsplash.com/1UN0YVHcIlU",
+            "path":"americaDoNorte"
         },
         {
             "name": "América do Sul",
             "description":"Quatro quintos do continente ficam abaixo da Linha do Equador",
-            "image":"https://source.unsplash.com/me2X2pfRhXU"
+            "image":"https://source.unsplash.com/me2X2pfRhXU",
+            "path":"americaDoSul"
         },
         {
             "name": "América Central",
             "description":"Esta região localiza-se numa placa tectónica própria: a Placa Caribeana",
-            "image":"https://source.unsplash.com/a717fD-aego"
+            "image":"https://source.unsplash.com/a717fD-aego",
+            "path":"americaCentral"
         },
         {
             "name": "África",
             "description":"É o terceiro maior continente do mundo e um dos mais populosos",
-            "image":"https://source.unsplash.com/GaLzDCnA5EI"
+            "image":"https://source.unsplash.com/GaLzDCnA5EI",
+            "path":"africa"
         },
         {
             "name": "Oceania",
             "description":"É uma região geográfica composta por vários grupos de ilhas do oceano Pacífico",
-            "image":"https://source.unsplash.com/6LEEmK68fa4"
+            "image":"https://source.unsplash.com/6LEEmK68fa4",
+            "path":"oceania"
         },
         {
             "name": "Ásia",
             "description":"É o maior dos continentes, tanto em área como em população",
-            "image":"https://source.unsplash.com/9bdt03k4ujw"
+            "image":"https://source.unsplash.com/9bdt03k4ujw",
+            "path":"asia"
         }
     ],
     "continents": [
