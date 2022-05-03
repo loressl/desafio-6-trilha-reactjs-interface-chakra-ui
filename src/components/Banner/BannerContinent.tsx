@@ -1,4 +1,4 @@
-import { Flex, Text } from "@chakra-ui/react";
+import { Flex, Heading } from "@chakra-ui/react";
 
 interface BannerContinentProps {
     bg: string
@@ -18,17 +18,18 @@ export function BannerContinent ({bg, name, isWideVersion}:BannerContinentProps)
             align={isWideVersion? "inherit": "center"}
             backgroundPosition="center"
         >
-            <Text
+            <Heading
                 color="gray.100"
                 fontSize={isWideVersion? "48px":"28px"}
                 fontWeight="600"
                 fontStyle="normal"
-                position={isWideVersion ? "absolute":"inherit"}
-                bottom="59px"
-                left="140px"
+                marginLeft={isWideVersion ? "140px": "inherit"}
+                position={isWideVersion ? "relative":"inherit"}
+                top="369px"
+                h={isWideVersion? "72px":"38px"}
             >
                 {name}
-            </Text>
+            </Heading>
         </Flex>
     )
 }
