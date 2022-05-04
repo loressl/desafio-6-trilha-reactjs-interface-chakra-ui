@@ -1,4 +1,4 @@
-import { Flex, Icon, IconButton, useBreakpointValue, Link as ChakraLink  } from "@chakra-ui/react";
+import { Flex, Icon, useBreakpointValue, Link as ChakraLink  } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { Logo } from "./Logo";

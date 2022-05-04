@@ -1,4 +1,4 @@
-import { Image, useBreakpointValue } from "@chakra-ui/react";
+import { Image } from "@chakra-ui/react";
 
 interface LogoProps {
     isWideVersion: boolean

@@ -19,6 +19,7 @@ export function Info ({ value, info, isWideVersion, tooltip}: InfoProps){
                 fontWeight="600"
                 fontSize={isWideVersion ? "48px": "24px"}
                 color="yellow.400"
+                fontStyle="normal"
             >
                 {value}
             </Text>
@@ -30,6 +31,7 @@ export function Info ({ value, info, isWideVersion, tooltip}: InfoProps){
                     fontWeight={isWideVersion? "600":"400"}
                     fontSize={isWideVersion ? "24px":"18px"}
                     color="gray.600"
+                    fontStyle="normal"
                 >
                     {info}
                 </Text>

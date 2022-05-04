@@ -48,6 +48,7 @@ export default function Continent({continent, error}: ContinetProps){
                 align="center"
                 justify="center"
                 flexDirection="column"
+                p={isWideVersion ? 6:3}
             >
                 <Stack
                     direction={isWideVersion ? 'row': 'column'}
@@ -61,9 +62,9 @@ export default function Continent({continent, error}: ContinetProps){
                         w="100%"
                         maxW={isWideVersion ? "600px":"343px"}
                         mt={isWideVersion ? "80px" : "24px"}
-                        pl={isWideVersion? "inherit":"16px"}
-                        pr={isWideVersion? "inherit":"16px"}
-                        mb={isWideVersion? "inherit":"16px"}
+                        pl={isWideVersion? "inherit":"12px"}
+                        pr={isWideVersion? "inherit":"12px"}
+                        mb={isWideVersion? "inherit":"12px"}
                     >
                         <Text
                             fontStyle="normal"
@@ -82,8 +83,8 @@ export default function Continent({continent, error}: ContinetProps){
                         width="100%"
                         maxW={isWideVersion ? "490px":"343px"}
                         alignItems="center"
-                        pl={isWideVersion? "inherit":"16px"}
-                        pr={isWideVersion? "inherit":"16px"}
+                        pl={isWideVersion? "inherit":"6px"}
+                        pr={isWideVersion? "inherit":"6px"}
                     >
                         <Info 
                             value={continent.numberOfCountries}
@@ -111,7 +112,11 @@ export default function Continent({continent, error}: ContinetProps){
                     w="100%"
                     mb={isWideVersion ? "35px": "16px"}
                 >
-                    <Heading>
+                    <Heading
+                        color="gray.600"
+                        fontWeight="500"
+                        fontSize={isWideVersion? "36px":"24px"}
+                    >
                         Cidades +100
                     </Heading>
                     <Wrap
@@ -121,7 +126,13 @@ export default function Continent({continent, error}: ContinetProps){
                     >
                         {continent.mostPopularCities.map((city) => (
                             <WrapItem key={city.city}>
-                                <Card isWideVersion={isWideVersion}/>
+                                <Card
+                                    initials={city.initials}
+                                    city={city.city}
+                                    capital={city.capital}
+                                    image={city.image} 
+                                    isWideVersion={isWideVersion}
+                                />
                             </WrapItem>
                         ))}
                     </Wrap>

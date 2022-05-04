@@ -1,8 +1,7 @@
 import { 
     Box, 
     Flex, 
-    Heading, 
-    useBreakpointValue,
+    Heading,
     Text,
     Image
 } from "@chakra-ui/react";
@@ -26,26 +25,33 @@ export function BannerHome ({isWideVersion}: BannerHomeProps) {
             <Box
                 w={isWideVersion ? '50%': '100%'}
                 display="flex"
-                alignItems={isWideVersion? "center": "flex-start"}
-                justifyContent="center"
-                flexDirection="column"
                 ml={isWideVersion ? "5px": "16px"}
+                alignItems="center"
+                justifyContent="center"
             >
-                <Heading
-                    color="gray.100"
-                    fontWeight="medium"
-                    fontSize={isWideVersion ? "36px": "20px"}
-                    pb="20px"
+                <Box
+                    display="flex"
+                    w={isWideVersion? "524px":""}
+                    flexDirection="column"
                 >
-                    {constants.titleBannerHome}
-                </Heading>
-                <Text
-                    color="gray.200"
-                    fontWeight="normal"
-                    fontSize={isWideVersion ? "20px": "14px"}
-                >
-                    {constants.phraseBannerHome}
-                </Text>
+                    <Heading
+                        color="gray.100"
+                        fontWeight="medium"
+                        fontSize={isWideVersion ? "36px": "20px"}
+                        pb={isWideVersion ? "20px":"8px"}
+                        lineHeight={isWideVersion ? "54px":"30px"}
+                    >
+                        {constants.titleBannerHomeFirst} <br />
+                        {constants.titleBannerHomeSecond}
+                    </Heading>
+                    <Text
+                        color="gray.200"
+                        fontWeight="normal"
+                        fontSize={isWideVersion ? "20px": "14px"}
+                    >
+                        {constants.phraseBannerHome}
+                    </Text>
+                </Box>
             </Box>
             {isWideVersion &&
                 <Box

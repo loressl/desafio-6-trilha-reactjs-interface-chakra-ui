@@ -96,26 +96,26 @@
             "mostPopularCities":[
                 {
                     "city": "África do Sul",
-                    "capital": "Cidade do Cabo, Pretória, Bloemfontein",
+                    "capital": "Cidade do Cabo",
                     "initials": "ZA",
                     "image": "https://source.unsplash.com/1GgWbP74phY"
                 },
                 {
                     "city": "Tanzânia",
                     "capital": "Dodoma",
-                    "initials": "TAN",
+                    "initials": "TZ",
                     "image": "https://source.unsplash.com/tEYD58OrLiY"
                 },
                 {
                     "city": "Etiópia",
                     "capital": "Addis Ababa",
-                    "initials": "ETH",
+                    "initials": "ET",
                     "image": "https://source.unsplash.com/v1pcGRXSmW8"
                 },
                 {
                     "city": "Seychelles",
                     "capital": "Victória",
-                    "initials": "SEY",
+                    "initials": "SC",
                     "image": "https://source.unsplash.com/W1v3GDg9OUo"
                 }
             ]
@@ -132,31 +132,31 @@
                 {
                     "city": "Nova York",
                     "capital": "Albany",
-                    "initials": "NY",
+                    "initials": "US",
                     "image": "https://source.unsplash.com/TaCk3NspYe0"
                 },
                 {
                     "city": "Miami",
                     "capital": "Tallahassee",
-                    "initials": "MIA",
+                    "initials": "US",
                     "image": "https://source.unsplash.com/pAWY7xrsLwc"
                 },
                 {
                     "city": "Los Angeles",
                     "capital": "Sacramento",
-                    "initials": "LA",
+                    "initials": "US",
                     "image": "https://source.unsplash.com/wdCkqK1oRIc"
                 },
                 {
                     "city": "Orlando",
                     "capital": "Tallahassee",
-                    "initials": "MCO",
+                    "initials": "US",
                     "image": "https://source.unsplash.com/HCKVHAEbkus"
                 },
                 {
                     "city": "São Francisco",
                     "capital": "Sacramento",
-                    "initials": "SFO",
+                    "initials": "US",
                     "image": "https://source.unsplash.com/4_4b1sah3_0"
                 }
             ]
@@ -165,7 +165,7 @@
             "slug":"americaDoSul",
             "name":"América do Sul",
             "description":"A América do Sul ocupa uma área de 17 819 100 quilômetros quadrados, localiza-se a 60º 00' 00 de longitude oeste do Meridiano de Greenwich e a 20º 00' 00 de latitude sul da Linha do Equador e com fusos horários -6, -5, -4, -3 e -2 horas em relação a hora mundial GMT.  No planeta Terra, o continente faz parte do continente pan-americano. É banhado pelo mar do Caribe, oceano Atlântico e oceano Pacífico.",
-            "banner": "https://source.unsplash.com/yam1KMv0SgQ",
+            "banner": "https://source.unsplash.com/nMRC4Oykn1Q",
             "numberOfCountries": 13,
             "numberOfLanguages": 5,
             "mostVisitedQuantity": 21,
@@ -173,7 +173,7 @@
                 {
                     "city": "Rio de Janeiro",
                     "capital": "Rio de Janeiro",
-                    "initials": "RJ",
+                    "initials": "BR",
                     "image": "https://source.unsplash.com/7F65HDP0-E0"
                 },
                 {
@@ -191,13 +191,13 @@
                 {
                     "city": "São Paulo",
                     "capital": "São Paulo",
-                    "initials": "SP",
+                    "initials": "BR",
                     "image": "https://source.unsplash.com/mabogysS4Tg"
                 },
                 {
                     "city": "Santiago",
                     "capital": "Chile",
-                    "initials": "CHL",
+                    "initials": "CL",
                     "image": "https://source.unsplash.com/QH3rBhcJS54"
                 }
             ]
@@ -235,7 +235,7 @@
             "slug":"asia",
             "name":"Ásia",
             "description":"Abrange um terço das partes sólidas da superfície da Terra e é responsável por abrigar quase três quintos da população mundial. A Ásia faz fronteira no lado ocidental com a África e com a Europa, e no lado oriental com o oceano Pacífico, a Oceania e, em menor proporção, com a América do Norte, pelo Estreito de Bering.",
-            "banner": "https://source.unsplash.com/B64B6-kAWlw",
+            "banner": "https://source.unsplash.com/8o4W9LZv6eo",
             "numberOfCountries": 50,
             "numberOfLanguages": 2300,
             "mostVisitedQuantity": 15,
@@ -255,7 +255,7 @@
                 {
                     "city": "Singapore",
                     "capital": "Singapore",
-                    "initials": "",
+                    "initials": "SG",
                     "image": "https://source.unsplash.com/Gf_KqXHU-PY"
                 },
                 {
@@ -296,7 +296,7 @@
                 {
                     "city": "Guatemala",
                     "capital": "Cidade da Guatemala",
-                    "initials": "GTM",
+                    "initials": "GT",
                     "image": "https://source.unsplash.com/Vq-NkZ42I24"
                 }
             ]
